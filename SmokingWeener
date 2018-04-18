@@ -1,0 +1,97 @@
+#!/usr/bin/env python
+#########################################################################
+# SmokingWeener v0.2 by Raymond Spangle (https://github.com/lleevveell66)
+# -----------------------------------------------------------------------
+# This python script is meant to help ween me off of cigarettes.  It will
+# eventually "learn" my current habits, and begin to adjust to me.  For
+# now, it's running on a Raspberry Pi Zero WH with a Velleman Active
+# Buzzer Module (VMA319) on pins 9 (GND) and 11 (GPIO 17) and an NTE
+# Electronics SPST Round Panel Mount Push Button (54-700-B) on pins 
+# 12 (GPIO 18) and 14 (GND).  Note that the Buzzer module middle pin is 
+# not used.  GND goes to the pin labeled "-" and GPIO 17 goes to the pin
+# labeled "S".
+#########################################################################
+
+import RPi.GPIO as GPIO
+import time
+import logging
+import logging.handlers
+import os
+
+# The actual physical pin numbers the buzzer and buttons are on:
+BuzzerPin=11					# GPIO 17
+ButtonPin=12					# GPIO 18
+
+# Log to file /var/log/SmokingWeener.log
+# handler=logging.handlers.WatchedFileHandler(os.environ.get("LOGFILE", "SmokingWeener.log"))
+handler=logging.handlers.WatchedFileHandler(os.environ.get("LOGFILE", "/var/log/SmokingWeener.log"))
+# Format the log messages
+formatter=logging.Formatter("%(asctime)s %(message)s","%Y-%m-%d %H:%M:%S")
+handler.setFormatter(formatter)
+logger=logging.getLogger()
+logger.setLevel(os.environ.get("LOGLEVEL", "INFO"))
+logger.addHandler(handler)
+
+def setup():
+        GPIO.setmode(GPIO.BOARD)				# Number GPIOs by physical pin
+        GPIO.setup(BuzzerPin,GPIO.OUT)				# Put buzzer pin into output mode
+        GPIO.output(BuzzerPin,GPIO.HIGH)			# Short burst to know we've started
+        GPIO.output(BuzzerPin,GPIO.LOW)				# Stop our short burst
+	GPIO.setup(ButtonPin,GPIO.IN, pull_up_down=GPIO.PUD_UP) # Use the pull-up resistor for the button
+
+def on():
+        GPIO.output(BuzzerPin, GPIO.HIGH)			# Buzzer on
+
+def off():
+        GPIO.output(BuzzerPin, GPIO.LOW)			# Buzzer off
+
+def BuzzerBeep(duration):
+        on()							# Buzzer on
+        time.sleep(duration)					# Delay for duration
+        off()							# Buzzer off
+
+def SmokeAlert():
+	for i in range(3):					# Repeat these tones 3 times
+		BuzzerBeep(0.07)				# Beep for 7ms
+		time.sleep(0.05)				# Delay for 5ms
+		BuzzerBeep(0.03)				# Beep for 3ms
+		time.sleep(0.85)				# Delay for 85ms (to pad this to 1 second)
+
+def ButtonAlert():
+	for i in range(3):					# Repeat these tones 3 times
+		BuzzerBeep(0.05)				# Beep for 5ms
+		time.sleep(0.05)				# Delay for 5ms (to pad this to 10ms)
+
+def MainLoop():
+	SmokeButtonCounter=0;					# Reset button pressed counter
+	oldtime=time.time();					# Save the time
+	logger.info('Started SmokingWeener v0.2 by Raymond Spangle (https://github.com/lleevveell66)')
+        while True:						# Repeat forevers
+		SmokeButton=GPIO.input(ButtonPin)		# Check for a button press
+		if SmokeButton == False:			# False == pressed
+			while GPIO.input(ButtonPin) == False:	# Wait for depress
+				nothing=0;			# Trying also to account for switch bounce
+			SmokeButtonCounter+=1;			# Increment our button pressed counter
+			ButtonAlert();				# Alert to the button press
+			oldtime=time.time();			# Save the current time
+			logger.info('Smoke button pressed (%s total times).  Resetting timer.',SmokeButtonCounter)
+		TimeYet=0;					# Not time yet
+		if time.time() - oldtime > (60*15): 		# Has 15 minutes passed?
+			TimeYet=1;				# If so, then it's time
+		while TimeYet:					# While it's time...
+			oldtime=time.time();			# Save the current time
+			TimeYet=0;				# It's no longer going to be time
+			logger.info('Smoking timer elapsed.  OK to smoke one.')
+			SmokeAlert();				# Let me know it's OK to smoke another
+
+def destroy():
+	GPIO.output(BuzzerPin, GPIO.HIGH)			# Buzzer on for a split second
+	GPIO.cleanup() 						# Release resources
+
+if __name__ == '__main__': 					# Program starts here
+	setup() 						# Initialize
+	try:
+		MainLoop() 					# Run indefinite loop
+	except KeyboardInterrupt: 				# Until user interrupts
+		logger.info('Caught CTRL-C.  Stopping SmokingWeener.')
+		destroy()					# Run our clean-up and exit

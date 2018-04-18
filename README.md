@@ -9,7 +9,8 @@ For now, it's running on a Raspberry Pi Zero WH with:
 
 Note that the Buzzer module middle pin is not used.  GND goes to the pin labeled "-" and GPIO 17 goes to the pin
 labeled "S".
- 
+
+<pre>
  Active
  Buzzer
  Module    RPzWH
@@ -23,4 +24,4 @@ labeled "S".
           | 13 14|----------------'
           | 15 16|
 ...etc...
-
+</pre>

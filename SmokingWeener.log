@@ -1,49 +1,227 @@
-2018-04-18 04:14:45 Started SmokeyWeener v0.0 by level6 of LIE.
-2018-04-18 04:15:19 Smoke button pressed (1 total times).  Resetting timer.
-2018-04-18 04:30:19 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 04:45:19 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 05:00:19 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 05:15:19 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 05:30:19 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 05:45:19 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 06:00:19 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 06:15:19 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 06:30:19 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 06:45:19 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 07:00:19 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 07:15:19 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 07:30:19 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 07:45:19 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 08:00:19 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 08:15:19 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 08:30:19 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 08:44:55 Smoke button pressed (2 total times).  Resetting timer.
-2018-04-18 08:59:43 Smoke button pressed (3 total times).  Resetting timer.
-2018-04-18 09:08:25 Smoke button pressed (4 total times).  Resetting timer.
-2018-04-18 09:23:25 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 09:23:34 Smoke button pressed (5 total times).  Resetting timer.
-2018-04-18 09:38:33 Smoke button pressed (6 total times).  Resetting timer.
-2018-04-18 09:53:33 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 10:08:33 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 10:23:33 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 10:38:33 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 10:53:33 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 10:53:41 Smoke button pressed (7 total times).  Resetting timer.
-2018-04-18 11:08:41 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 11:21:56 Smoke button pressed (8 total times).  Resetting timer.
-2018-04-18 11:22:32 Caught CTRL-C.  Stopping SmokeyWeener.
-2018-04-18 14:32:12 Started SmokingWeener v0.2 by Raymond Spangle (https://github.com/lleevveell66)
-2018-04-18 14:32:16 Smoke button pressed (1 total times).  Resetting timer.
-2018-04-18 14:32:38 Smoke button pressed (2 total times).  Resetting timer.
-2018-04-18 14:32:55 Smoke button pressed (3 total times).  Resetting timer.
-2018-04-18 14:47:55 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 15:02:55 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 15:17:55 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 15:32:55 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 15:47:55 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 16:02:55 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 16:17:55 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 16:32:55 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 16:44:37 Smoke button pressed (4 total times).  Resetting timer.
-2018-04-18 16:59:37 Smoking timer elapsed.  OK to smoke one.
-2018-04-18 17:12:33 Caught CTRL-C.  Stopping SmokingWeener.
+2018-04-19 00:58:57 Started SmokingWeener v0.3 by Raymond Spangle (https://github.com/lleevveell66)
+2018-04-19 01:13:57 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 01:28:57 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 01:37:47 Smoke button pressed (1 cigarettes, last one 0h 38m 49s ago).  Resetting timer.
+2018-04-19 01:40:31 Smoke button pressed (2 cigarettes, last one 0h 2m 44s ago).  Resetting timer.
+2018-04-19 01:55:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 02:10:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 02:25:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 02:40:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 02:55:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 03:10:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 03:25:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 03:40:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 03:55:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 04:10:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 04:25:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 04:40:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 04:55:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 05:10:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 05:25:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 05:40:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 05:55:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 06:10:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 06:25:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 06:40:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 06:55:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 07:10:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 07:25:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 07:40:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 07:55:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 08:10:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 08:25:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 08:40:31 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 08:44:00 Smoke button pressed (3 cigarettes, last one 7h 3m 29s ago).  Resetting timer.
+2018-04-19 08:59:00 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 08:59:06 Smoke button pressed (4 cigarettes, last one 0h 15m 6s ago).  Resetting timer.
+2018-04-19 09:14:06 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 09:19:40 Smoke button pressed (5 cigarettes, last one 0h 20m 34s ago).  Resetting timer.
+2018-04-19 09:34:40 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 09:49:40 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 10:04:40 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 10:19:40 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 10:33:40 Smoke button pressed (6 cigarettes, last one 1h 14m 0s ago).  Resetting timer.
+2018-04-19 10:48:40 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 10:51:53 Smoke button pressed (7 cigarettes, last one 0h 18m 14s ago).  Resetting timer.
+2018-04-19 11:06:53 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 11:10:56 Smoke button pressed (8 cigarettes, last one 0h 19m 3s ago).  Resetting timer.
+2018-04-19 11:25:56 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 11:40:56 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 11:55:56 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 12:10:56 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 12:25:56 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 12:40:56 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 12:55:56 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 13:10:56 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 13:25:56 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 13:40:56 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 13:55:56 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 13:57:16 Smoke button pressed (9 cigarettes, last one 2h 46m 20s ago).  Resetting timer.
+2018-04-19 14:12:16 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 14:12:20 Smoke button pressed (10 cigarettes, last one 0h 15m 4s ago).  Resetting timer.
+2018-04-19 14:27:20 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 14:42:20 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 14:57:20 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 15:12:20 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 15:27:20 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 15:40:51 Smoke button pressed (11 cigarettes, last one 1h 28m 32s ago).  Resetting timer.
+2018-04-19 15:52:25 Smoke button pressed (12 cigarettes, last one 0h 11m 34s ago).  Resetting timer.
+2018-04-19 16:07:25 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 16:22:25 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 16:34:43 Smoke button pressed (13 cigarettes, last one 0h 42m 18s ago).  Resetting timer.
+2018-04-19 16:49:43 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 17:04:43 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 17:10:38 Smoke button pressed (14 cigarettes, last one 0h 35m 55s ago).  Resetting timer.
+2018-04-19 17:25:38 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 17:40:38 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 17:49:58 Smoke button pressed (15 cigarettes, last one 0h 39m 20s ago).  Resetting timer.
+2018-04-19 18:04:58 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 18:19:58 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 18:34:58 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 18:49:58 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 18:50:06 Smoke button pressed (16 cigarettes, last one 1h 0m 9s ago).  Resetting timer.
+2018-04-19 19:05:06 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 19:05:53 Smoke button pressed (17 cigarettes, last one 0h 15m 46s ago).  Resetting timer.
+2018-04-19 19:20:53 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 19:35:53 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 19:50:53 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 20:05:53 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 20:20:53 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 20:35:53 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 20:50:53 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 21:05:53 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 21:20:53 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 21:35:26 Smoke button pressed (18 cigarettes, last one 2h 29m 33s ago).  Resetting timer.
+2018-04-19 21:50:26 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 22:05:26 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 22:20:26 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 22:35:26 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 22:50:26 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 23:05:26 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 23:20:26 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 23:35:26 Smoking timer elapsed.  OK to smoke one.
+2018-04-19 23:50:26 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 00:05:26 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 00:20:26 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 00:35:26 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 00:50:26 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 01:05:26 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 01:20:26 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 01:35:26 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 01:46:59 Smoke button pressed (19 cigarettes, last one 4h 11m 33s ago).  Resetting timer.
+2018-04-20 02:01:59 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 02:05:42 Smoke button pressed (20 cigarettes, last one 0h 18m 43s ago).  Resetting timer.
+2018-04-20 02:19:43 Smoke button pressed (21 cigarettes, last one 0h 14m 0s ago).  Resetting timer.
+2018-04-20 02:34:43 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 02:41:01 Smoke button pressed (22 cigarettes, last one 0h 21m 18s ago).  Resetting timer.
+2018-04-20 02:56:01 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 03:11:01 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 03:26:01 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 03:41:01 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 03:56:01 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 04:11:01 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 04:26:01 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 04:41:01 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 04:56:01 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 05:11:01 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 05:26:01 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 05:41:01 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 05:56:01 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 06:11:01 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 06:26:01 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 06:41:01 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 06:56:01 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 07:11:01 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 07:26:01 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 07:41:01 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 07:56:01 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 08:11:01 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 08:26:01 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 08:41:01 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 08:56:01 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 09:02:15 Smoke button pressed (23 cigarettes, last one 6h 21m 15s ago).  Resetting timer.
+2018-04-20 09:17:15 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 09:32:15 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 09:47:15 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 10:02:15 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 10:17:15 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 10:32:15 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 10:47:15 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 11:02:15 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 11:17:15 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 11:17:34 Smoke button pressed (24 cigarettes, last one 2h 15m 19s ago).  Resetting timer.
+2018-04-20 11:32:34 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 11:47:34 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 12:02:34 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 12:17:34 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 12:32:34 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 12:47:34 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 13:02:34 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 13:17:34 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 13:19:27 Smoke button pressed (25 cigarettes, last one 2h 1m 53s ago).  Resetting timer.
+2018-04-20 13:34:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 13:49:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 14:04:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 14:19:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 14:34:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 14:49:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 15:04:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 15:19:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 15:34:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 15:49:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 16:04:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 16:19:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 16:34:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 16:49:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 17:04:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 17:19:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 17:34:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 17:49:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 18:04:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 18:19:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 18:34:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 18:49:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 19:04:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 19:19:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 19:34:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 19:49:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 20:04:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 20:19:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 20:34:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 20:49:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 21:04:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 21:19:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 21:34:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 21:49:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 22:04:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 22:19:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 22:34:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 22:49:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 23:04:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 23:19:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 23:34:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-20 23:49:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-21 00:04:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-21 00:19:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-21 00:34:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-21 00:49:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-21 01:04:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-21 01:19:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-21 01:34:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-21 01:49:27 Smoking timer elapsed.  OK to smoke one.
+2018-04-21 01:58:02 Smoke button pressed (26 cigarettes, last one 12h 38m 35s ago).  Resetting timer.
+2018-04-21 02:13:02 Smoking timer elapsed.  OK to smoke one.
+2018-04-21 02:15:25 Smoke button pressed (27 cigarettes, last one 0h 17m 23s ago).  Resetting timer.
+2018-04-21 02:30:25 Smoking timer elapsed.  OK to smoke one.
+2018-04-21 02:37:53 Smoke button pressed (28 cigarettes, last one 0h 22m 28s ago).  Resetting timer.
+2018-04-21 02:52:53 Smoking timer elapsed.  OK to smoke one.
+2018-04-21 02:52:57 Smoke button pressed (29 cigarettes, last one 0h 15m 4s ago).  Resetting timer.
+2018-04-21 03:07:57 Smoking timer elapsed.  OK to smoke one.
+2018-04-21 03:22:57 Smoking timer elapsed.  OK to smoke one.
+2018-04-21 03:37:57 Smoking timer elapsed.  OK to smoke one.
+2018-04-21 03:52:57 Smoking timer elapsed.  OK to smoke one.
+2018-04-21 04:03:43 Smoke button pressed (30 cigarettes, last one 1h 10m 46s ago).  Resetting timer.
+2018-04-21 04:18:43 Smoking timer elapsed.  OK to smoke one.
+2018-04-21 04:33:43 Smoking timer elapsed.  OK to smoke one.
+2018-04-21 04:36:17 Smoke button pressed (31 cigarettes, last one 0h 32m 34s ago).  Resetting timer.
+2018-04-21 04:51:17 Smoking timer elapsed.  OK to smoke one.

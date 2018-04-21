@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #########################################################################
-# SmokingWeener v0.2 by Raymond Spangle (https://github.com/lleevveell66)
+# SmokingWeener v0.3 by Raymond Spangle (https://github.com/lleevveell66)
 # -----------------------------------------------------------------------
 # This python script is meant to help ween me off of cigarettes.  It will
 # eventually "learn" my current habits, and begin to adjust to me.  For
@@ -65,7 +65,8 @@ def ButtonAlert():
 def MainLoop():
 	SmokeButtonCounter=0;					# Reset button pressed counter
 	oldtime=time.time();					# Save the time
-	logger.info('Started SmokingWeener v0.2 by Raymond Spangle (https://github.com/lleevveell66)')
+	lasttime=oldtime;
+	logger.info('Started SmokingWeener v0.3 by Raymond Spangle (https://github.com/lleevveell66)')
         while True:						# Repeat forevers
 		SmokeButton=GPIO.input(ButtonPin)		# Check for a button press
 		if SmokeButton == False:			# False == pressed
@@ -73,8 +74,21 @@ def MainLoop():
 				nothing=0;			# Trying also to account for switch bounce
 			SmokeButtonCounter+=1;			# Increment our button pressed counter
 			ButtonAlert();				# Alert to the button press
+			timeDeltaSec=0;
+			timeDeltaMin=0;
+			timeDeltaHrs=0;
+			deltaStr='';
+			timeDeltaSec=int(round(time.time()-lasttime));
+			lasttime=time.time();
+			if timeDeltaSec>59:
+				timeDeltaMin=timeDeltaSec/60;
+				timeDeltaSec=timeDeltaSec % 60;
+				if timeDeltaMin>59:
+					timeDeltaHrs=timeDeltaMin/60;
+					timeDeltaMin=timeDeltaMin % 60;
+			deltaStr='%sh %sm %ss'%(timeDeltaHrs,timeDeltaMin,timeDeltaSec);
 			oldtime=time.time();			# Save the current time
-			logger.info('Smoke button pressed (%s total times).  Resetting timer.',SmokeButtonCounter)
+			logger.info('Smoke button pressed (%s cigarettes, last one %s ago).  Resetting timer.',SmokeButtonCounter,deltaStr)
 		TimeYet=0;					# Not time yet
 		if time.time() - oldtime > (60*15): 		# Has 15 minutes passed?
 			TimeYet=1;				# If so, then it's time

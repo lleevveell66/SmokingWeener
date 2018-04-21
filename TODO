@@ -1,5 +1,4 @@
-SmokingWeener v0.2 to do:
+SmokingWeener v0.3 to do:
 -------------------------
 - Calculate time difference from last button press
-- Add code to my GitHub
-- Properly Daemonize, if that is possible with Python
+- Properly daemonize, if that is possible with Python

@@ -4,6 +4,7 @@ This python script is meant to help ween me off of cigarettes.  It will eventual
 and begin to adjust to me.  I am sharing it, because it could eventually also help others with their habits.
 
 For now, it's running on a Raspberry Pi Zero WH with: 
+
 - Velleman Active Buzzer Module (VMA319) on pins 9 (GND) and 11 (GPIO 17)
 - NTE Electronics SPST Round Panel Mount Push Button (54-700-B) on pins 12 (GPIO 18) and 14 (GND).  
 

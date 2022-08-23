@@ -66,7 +66,7 @@ def MainLoop():
 	SmokeButtonCounter=0;					# Reset button pressed counter
 	oldtime=time.time();					# Save the time
 	lasttime=oldtime;
-	logger.info('Started SmokingWeener v0.3 by Raymond Spangle (https://github.com/lleevveell66)')
+	logger.info('Started SmokingWeener v0.3 by LEVEL6 (https://github.com/lleevveell66)')
         while True:						# Repeat forevers
 		SmokeButton=GPIO.input(ButtonPin)		# Check for a button press
 		if SmokeButton == False:			# False == pressed

@@ -1,4 +1,4 @@
-SmokingWeener v0.3 by Raymond Spangle (https://github.com/lleevveell66)
+SmokingWeener v0.3 by LEVEL6 (https://github.com/lleevveell66)
 -----------------------------------------------------------------------
 This python script is meant to help ween me off of cigarettes.  It will eventually "learn" my current habits, 
 and begin to adjust to me.  I am sharing it, because it could eventually also help others with their habits.
